@@ -18,4 +18,23 @@
 .container .display .header .Date-Time p {
   color: white;
   size: 25px;
+}
+.container .commands .container-commands {
+  width: 90%;
+  margin: auto auto;
+}
+.container .commands .container-commands .row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+.container .commands .container-commands .row .div {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+.container .commands .container-commands .row .gray {
+  background-color: grey;
 }/*# sourceMappingURL=style.css.map */
