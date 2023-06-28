@@ -1,0 +1,21 @@
+@import url(./global.css);
+.container .display .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .display .header .icons {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+.container .display .header .icons i {
+  margin-right: 10px;
+}
+.container .display .header .Date-Time {
+  margin-left: 50px;
+}
+.container .display .header .Date-Time p {
+  color: white;
+  size: 25px;
+}/*# sourceMappingURL=style.css.map */
