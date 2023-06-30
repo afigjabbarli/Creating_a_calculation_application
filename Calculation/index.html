@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./assets/JS/script.js" defer></script>
     <title>Calculation</title>
 </head>
 <body>
@@ -13,97 +14,53 @@
     </header>
     <body>
         <section>
-            <div class="container">
-                <div class="display">
-                    <div class="header">
-                        <div class="Date-Time">
-                        <p style="font-size: 20px">09:41</p>
-                        </div>
-                        <div class="icons">
-                            <i class="fa-solid fa-signal fa-lg" style="color: #ffffff;"></i>
-                            <i class="fa-sharp fa-solid fa-wifi fa-lg" style="color: white;"></i>
-                            <i class="fa-solid fa-battery-three-quarters fa-lg" style="color: #ffffff;"></i>
-                        </div>
-                    </div>
-                    <div class="main">
-                        
-                    </div>
-                </div>
-                <div class="commands">
-                    <div class="container-commands">
-                        <div class="row row-1">
-                            <div class="gray div">
-                                <p>AC</p>
-                            </div>
-                            <div class="gray div">
-                                <p>+/-</p>
-                            </div>
-                            <div class="gray div">
-                                <p>%</p>
-                            </div>
-                            <div class="orange div">
-                                <i class="fa-solid fa-divide fa-2xl" style="color: #ffffff;"></i>
-                            </div>
-                        </div>
-                        <div class="row row-2">
-                            <div class="dark-grey div">
-                                <p>7</p>
-                            </div>
-                            <div class="dark-grey div">
-                                <p>8</p>
-                            </div>
-                            <div class="dark-grey div">
-                                <p>9</p>
-                            </div>
-                            <div class="orange div">
-                              <i class="fa-solid fa-xmark fa-2xl" style="color: #ffffff;"></i>
-                            </div>
-                        </div>
-                        <div class="row row-3">
-                            <div class="dark-grey div">
-                                <p>4</p>
-                            </div>
-                            <div class="dark-grey div">
-                                <p>5</p>
-                            </div>
-                            <div class="dark-grey div">
-                                <p>6</p>
-                            </div>
-                            <div class="orange div">
-                                <i class="fa-solid fa-minus fa-2xl" style="color: #ffffff;"></i>
-                            </div>
-                        </div>
-                        <div class="row row-4">
-                            <div class="dark-grey div">
-                                <p>1</p>
-                            </div>
-                            <div class="dark-grey div">
-                                <p>2</p>
-                            </div>
-                            <div class="dark-grey div">
-                                <p>3</p>
-                            </div>
-                            <div class="orange div">
-                                <i class="fa-solid fa-plus fa-2xl" style="color: #ffffff;"></i>
-                            </div>
-                        </div>
-                        <div class="row row-5">
-                            <div class="dark-grey div zero">
-                                <p>0</p>
-                            </div>
-                            <div class="dark-grey div">
-                                <p>,</p>
-                            </div>
-                            
-                            <div class="orange div">
-                                
-                                    <i class="fa-solid fa-equals fa-2xl" style="color: #ffffff;"></i>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="container">
+            <div class="screen">
+           <div class="head">
+            <div class="time"></div>
+            <div class="icons">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
             </div>
+           </div>
+           <div class="display"></div>
+            </div>
+            <div class="commands">
+           <div class="row-1 row">
+            <button class="grey">AC</button>
+            <button class="grey">+/-</button>
+            <button class="grey">%</button>
+            <button class="orange divide"><i class="fa-solid fa-divide fa-2xl" style="color: #ffffff;"></i></button>
+           </div>
+           <div class="row-2 row">
+            <button class="dark">7</button>
+            <button class="dark">8</button>
+            <button class="dark">9</button>
+            <button class="orange">x</button>
+           </div>
+           <div class="row-3 row">
+               <button class="dark">4</button>
+               <button class="dark">5</button>
+               <button class="dark">6</button>
+               <button class="orange">-</button>
+           </div>
+           <div class="row-4 row">
+            <button class="dark">1</button>
+            <button class="dark">2</button>
+            <button class="dark">3</button>
+            <button class="orange">+</button>
+           </div>
+           <div class="row-5 row">
+            <button class="zero dark">0</button>
+            <button class="dark">.</button>
+            <button class="orange">=</button>
+           </div>
+            </div>
+            <div class="line"></div>
+        </div>
         </section>
     </body>
     <footer>

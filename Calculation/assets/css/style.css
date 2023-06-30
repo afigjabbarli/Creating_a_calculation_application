@@ -1,65 +1,67 @@
 @import url(./global.css);
-.container .display .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.container .display .header .icons {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 50px;
-}
-.container .display .header .icons i {
-  margin-right: 10px;
-}
-.container .display .header .Date-Time {
-  margin-left: 50px;
-}
-.container .display .header .Date-Time p {
-  color: white;
-  size: 25px;
-}
-.container .commands .container-commands {
-  width: 90%;
-  margin: auto auto;
-}
-.container .commands .container-commands .row {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 10px;
-}
-.container .commands .container-commands .row .div {
-  border-radius: 50%;
-  width: 80px;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.container .commands .container-commands .row .div:hover{
-  transform: scale(1.2);
-  cursor: pointer;
-}
-.container .commands .container-commands .row .gray {
-  background-color: #aca2a2;
-}/*# sourceMappingURL=style.css.map */
-.container .commands .container-commands .row .orange{
-  background-color: orange;
-}
-.container .commands .container-commands .row .dark-grey{
-  background-color: rgb(68, 67, 67)
-}
-.container .commands .container-commands .row .zero{
-  width: 170px;
-  border-radius: 50px;
-}
-.container .commands .container-commands .row .div p{
-  font-size: 30px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  
-}
-.container .commands .container-commands .row .dark-grey p{
-  color: white;
-}
+  .container{
+    width: 25%;
+    height: 660px;
+    margin: 0px auto;
+    border: 5px solid grey;
+    border-radius: 50px;
+    background-color: black;
+  }
+  .container{
+    margin-top: 45px;
+  }
+  .screen{
+    height: 40%;
+    width: 100%;
+  }
+  .commands{
+    height: 60%;
+    width: 100%;
+    position: relative;
+    bottom: 35px;
+    
+  }
+  .row{
+    height: 20%;
+    width: 90%;
+    margin: 0px auto;
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  button{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: white;
+  }
+  .zero{
+    width: 150px;
+    border-radius: 65px;
+  }
+  .orange{
+    background-color: orange;
+  }
+  .grey{
+    background-color: gray;
+    color: black;
+  }
+  .divide{
+    font-size: 13px;
+  }
+  .dark{
+    background-color: rgb(54, 52, 52);
+  }
+  .line{
+    width: 40%;
+    height: 5px;
+    border-radius: 25px;
+    background-color: white;
+    margin: 0px auto;
+    position: relative;
+    bottom: 16px;
+  }

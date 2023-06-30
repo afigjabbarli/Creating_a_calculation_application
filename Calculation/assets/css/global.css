@@ -1,26 +1,5 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-.container {
-  width: 30%;
-  height: 700px;
-  background-color: black;
-  border: 5px solid grey;
-  border-radius: 50px;
-  margin: 25px auto;
-}
-.container .commands {
-  height: 70%;
-  width: 100%;
-}
-.container .display {
-  height: 30%;
-  width: 100%;
-}
-.container .display .header {
-  height: 50px;
-  width: 100%;
-}/*# sourceMappingURL=global.css.map */
