@@ -51,7 +51,8 @@
     color: black;
   }
   .divide{
-    font-size: 13px;
+    font-size: 25px;
+    font-weight: bold;
   }
   .dark{
     background-color: rgb(54, 52, 52);
@@ -107,4 +108,8 @@
   }
   .time{
     width: 33%;
+  }
+  #calculating{
+    font-size: 36px;
+    color: white;
   }
